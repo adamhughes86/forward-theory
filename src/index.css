@@ -5,16 +5,3 @@ body {
   font-family: 'Roboto Mono', monospace;
   background-color: #E6D8CB;
 }
-
-.super-heading {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  padding: 0;
-  margin: 0;
-  color: #D9C8B8;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 160px;
-  font-weight: 700;
-  z-index: -1;
-}

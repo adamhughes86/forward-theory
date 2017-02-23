@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SuperHeading from '../SuperHeading/SuperHeading';
 import './Technology.css';
 
 class Technology extends Component {
@@ -6,7 +7,7 @@ class Technology extends Component {
     return (
 
       <section className="technology module">
-        <h2 className="super-heading">Technology</h2>
+        <SuperHeading heading="Technology" />
 
         <div className="technology__text">
           <p>Here at Forward Theory we specialise in interesting ideas with the end user at the front of our minds constantly. We pride ourselves in being a Creative, UX driven development agency.</p>
