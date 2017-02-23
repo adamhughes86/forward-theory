@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
 import image from './images/weather-to-ride-01.jpg';
 import './App.css';
 
@@ -11,10 +12,7 @@ class App extends Component {
 
         <main className="main">
 
-          <section className="hero">
-            <h2 className="hero__heading">Crafting meaningful digital experiences</h2>
-            <p className="hero__text">We are a Liverpool based development studio specialising in small to medium sized websites and apps.</p>
-          </section>
+          <Hero/>
 
           <section className="projects module">
             <h2 className="super-heading">Projects</h2>
