@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './Header';
 import image from './images/weather-to-ride-01.jpg';
 import './App.css';
 
@@ -6,9 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="header">
-          <h1 className="header__logo">Forward Theory</h1>
-        </header>
+        <Header/>
 
         <main className="main">
 

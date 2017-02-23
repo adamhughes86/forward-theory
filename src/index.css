@@ -6,24 +6,6 @@ body {
   background-color: #E6D8CB;
 }
 
-.header {
-  display: inline-block;
-  position: absolute;
-  top: -22px;
-  left: -4px;
-  padding: 0 20px 5px 1px;
-  background-color: #E6D8CB;
-}
-
-.header__logo {
-  display: block;
-  margin: 0;
-  height: 45px;
-  width: 221px;
-  font-size: 0;
-  background: transparent url('../src/logo.svg') 0 0 no-repeat;
-}
-
 .hero {
   display: flex;
   flex-direction: column;
