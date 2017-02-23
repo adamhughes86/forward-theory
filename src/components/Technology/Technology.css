@@ -1,0 +1,41 @@
+.technology {
+  position: relative;
+  padding: 195px 40px 60px;
+}
+
+.technology__text {
+  color: #1A1918;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.technology__text p {
+  max-width: 640px;
+  margin: 0 0 1.5em;
+}
+
+.technology__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px -10px;
+  padding: 0;
+  list-style: none;
+}
+
+.technology__list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+  height: 100px;
+  width: calc(20% - 20px);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  border: 2px solid #D9C8B8;
+}
