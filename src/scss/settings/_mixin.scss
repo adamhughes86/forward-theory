@@ -1,0 +1,6 @@
+@mixin font-size($sizeValue) {
+  $remValue: ($sizeValue / 10);
+  $pxValue: $sizeValue;
+  font-size: $pxValue + px;
+  font-size: $remValue + rem; // scss-lint:disable DuplicateProperty
+}
