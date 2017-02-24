@@ -1,3 +1,5 @@
+@import "../../scss/settings.scss";
+
 .super-heading {
   position: absolute;
   top: 0;
@@ -5,8 +7,27 @@
   padding: 0;
   margin: 0;
   color: #D9C8B8;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 160px;
-  font-weight: 700;
+  @include font-size(50);
+  @include font-alpha();
   z-index: -1;
+
+  @include breakpoint(small) {
+    @include font-size(100);
+  }
+
+  @include breakpoint(medium) {
+    @include font-size(160);
+  }
+}
+
+.super-heading-container {
+  padding: 75px 20px 60px;
+
+  @include breakpoint(small) {
+    padding: 125px 40px 60px;
+  }
+
+  @include breakpoint(medium) {
+    padding: 195px 40px 60px;
+  }
 }

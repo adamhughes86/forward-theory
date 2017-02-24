@@ -7,7 +7,7 @@ class Projects extends Component {
   render() {
     return (
 
-      <section className="projects module">
+      <section className="projects super-heading-container">
         <SuperHeading heading="Projects" />
 
         <Project

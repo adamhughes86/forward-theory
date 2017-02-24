@@ -6,7 +6,7 @@ class Technology extends Component {
   render() {
     return (
 
-      <section className="technology module">
+      <section className="technology super-heading-container">
         <SuperHeading heading="Technology" />
 
         <div className="technology__text">

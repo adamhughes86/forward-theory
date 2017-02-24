@@ -4,7 +4,8 @@
 //
 
 $colorPalette: (
-  customBlack: #111111
+  customRed: #EC3F48,
+  customBlack: #1A1918
 );
 
 @each $color in $colorPalette {

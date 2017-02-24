@@ -1,5 +1,24 @@
 // Use this file to import font's other than iconfonts. You can use fontsquirrel to create a font-face file
 
-$alphaFont: 'Hoefler', 'Georgia', serif;
-$betaFont: 'Georgia', serif;
-$charlieFont: 'Helvetica', 'Arial', sans-serif;
+$alphaFont: 'Cormorant Garamond', serif;
+$betaFont: 'Roboto Mono', monospace;
+
+
+@mixin font-size($sizeValue) {
+  $remValue: ($sizeValue / 10);
+  $pxValue: $sizeValue;
+  font-size: $pxValue + px;
+  font-size: $remValue + rem; // scss-lint:disable DuplicateProperty
+}
+
+@mixin font-alpha() {
+  font-family: $alphaFont;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+@mixin font-beta() {
+  font-family: $betaFont;
+  font-weight: 300;
+  line-height: 1.4;
+}

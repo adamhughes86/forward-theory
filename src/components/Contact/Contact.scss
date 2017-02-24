@@ -1,31 +1,31 @@
+@import "../../scss/settings.scss";
+
 .contact {
   padding: 120px 40px;
-  background-color: #1A1918;
+  background-color: color(customBlack);
 
   &__heading {
     padding: 0;
-    margin: 0 0 40px;
+    margin: 0 0 10px;
     color: #E6D8CB;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 86px;
-    font-weight: 700;
-    line-height: 1.1;
+    @include font-size(46);
+    @include font-alpha();
+    text-align: center;
   }
 
   &__text {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
     p {
       padding: 0;
-      margin: 0;
+      margin: 0 0 2em;
       color: #E6D8CB;
-      font-family: 'Roboto Mono', monospace;
-      font-weight: 300;
-      font-size: 13px;
-      line-height: 1.6;
+      @include font-size(13);
+      @include font-beta();
+      text-align: center;
       max-width: 600px;
     }
   }
@@ -34,13 +34,31 @@
     display: block;
     padding: 20px 40px;
     color: #fff;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 14px;
-    font-weight: 700;
+    font-family: $betaFont;
+    font-weight: 500;
     line-height: 1;
+    @include font-size(14);
     text-align: center;
     text-decoration: none;
-    background-color: #EC3F48;
-    border: 2px solid;
+    background-color: color(customRed);
+  }
+}
+
+@include breakpoint(medium) {
+  .contact {
+    &__heading {
+      @include font-size(86);
+      margin: 0 0 40px;
+      text-align: left;
+    }
+
+    &__text {
+      flex-direction: row;
+
+      p {
+        margin: 0;
+        text-align: left;
+      }
+    }
   }
 }

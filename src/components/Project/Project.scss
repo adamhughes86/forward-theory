@@ -1,12 +1,12 @@
+@import "../../scss/settings.scss";
+
 .project {
-  width: 50%;
+  width: 100%;
 
   &__title {
-    color: #EC3F48;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.1;
+    color: color(customRed);
+    @include font-size(24);
+    @include font-alpha();
     margin: 0 0 1em;
   }
 
@@ -16,14 +16,18 @@
   }
 
   &__description {
-    color: #1A1918;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 1.4;
+    color: color(customBlack);
+    @include font-size(13);
+    @include font-beta();
 
     p {
       margin: 0 0 1.5em;
     }
+  }
+}
+
+@include breakpoint(medium) {
+  .project {
+    width: 50%;
   }
 }

@@ -21,10 +21,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  padding: 0;
-  color: #1A1918;
+  padding: 0 10px;
+  color: color(customBlack);
   font-family: 'Roboto Mono', monospace;
   background-color: #E6D8CB;
+
+  @include breakpoint(small) {
+    padding: 0 20px;
+  }
 }
 
 img {
