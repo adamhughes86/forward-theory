@@ -1,0 +1,29 @@
+.project {
+  width: 50%;
+
+  &__title {
+    color: #EC3F48;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 1em;
+  }
+
+  &__image {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  &__description {
+    color: #1A1918;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.4;
+
+    p {
+      margin: 0 0 1.5em;
+    }
+  }
+}

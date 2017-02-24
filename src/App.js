@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects';
 import Technology from './components/Technology/Technology';
 import Contact from './components/Contact/Contact';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
