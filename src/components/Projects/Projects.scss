@@ -1,3 +1,30 @@
+@import "../../scss/settings.scss";
+
 .projects {
   position: relative;
+  background-color: color(block);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -55px;
+    left: -50%;
+    width: 200%;
+    height: 129px;
+    transform: rotate(-3deg);
+    z-index: 1;
+    background-color: color(block);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -45px;
+    left: -50%;
+    width: 200%;
+    height: 129px;
+    transform: rotate(3deg);
+    z-index: 1;
+    background-color: color(block);
+  }
 }

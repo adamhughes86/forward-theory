@@ -1,16 +1,20 @@
 @import "../../scss/settings.scss";
 
 .contact {
+  position: relative;
   padding: 120px 40px;
-  background-color: color(customBlack);
+  background-color: color(block);
 
-  &__heading {
-    padding: 0;
-    margin: 0 0 10px;
-    color: #E6D8CB;
-    @include font-size(46);
-    @include font-alpha();
-    text-align: center;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -55px;
+    left: -50%;
+    width: 200%;
+    height: 129px;
+    transform: rotate(-3deg);
+    z-index: 1;
+    background-color: color(block);
   }
 
   &__text {
@@ -22,7 +26,7 @@
     p {
       padding: 0;
       margin: 0 0 2em;
-      color: #E6D8CB;
+      color: #fff;
       @include font-size(13);
       @include font-beta();
       text-align: center;

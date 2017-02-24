@@ -24,11 +24,15 @@ body {
   padding: 0 10px;
   color: color(customBlack);
   font-family: 'Roboto Mono', monospace;
-  background-color: #E6D8CB;
+  background-color: color(background);
 
   @include breakpoint(small) {
     padding: 0 20px;
   }
+}
+
+.main {
+  overflow: hidden;
 }
 
 img {

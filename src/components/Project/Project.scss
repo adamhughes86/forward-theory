@@ -4,7 +4,7 @@
   width: 100%;
 
   &__title {
-    color: color(customRed);
+    color: #fff;
     @include font-size(24);
     @include font-alpha();
     margin: 0 0 1em;
@@ -16,7 +16,7 @@
   }
 
   &__description {
-    color: color(customBlack);
+    color: #fff;
     @include font-size(13);
     @include font-beta();
 

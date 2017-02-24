@@ -31,12 +31,13 @@
       margin: 0 auto 20px;
       height: 100px;
       width: 100%;
+      color: color(customRed);
       font-family: $betaFont;
       @include font-size(14);
       font-weight: 500;
       line-height: 1;
       text-align: center;
-      border: 2px solid #D9C8B8;
+      border: 2px solid;
     }
   }
 }

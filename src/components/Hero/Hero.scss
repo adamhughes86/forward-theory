@@ -6,7 +6,7 @@
   justify-content: center;
   height: 400px;
   max-width: 640px;
-  padding: 60px 20px 0;
+  padding: 60px 20px;
 
   &__heading {
     margin: 0 0 0.5em;
@@ -27,7 +27,7 @@
 
 @include breakpoint(small) {
   .hero {
-    padding: 60px 40px 0;
+    padding: 60px 40px;
 
     &__heading {
       @include font-size(36);
