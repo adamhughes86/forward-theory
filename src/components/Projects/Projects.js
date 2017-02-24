@@ -14,7 +14,7 @@ class Projects extends Component {
           title="Weather to ride"
           imageSrc="images/weather-to-ride-01.jpg"
           imageAlt="Weather to ride app in use"
-          text="<p>Weather to ride is a Weather app for cyclists who commute. Users are able to set weather conditions they prefer and times they commute and they receive personalised responses.</p><p>The app was built in Ionic as an internal project and is available on the ios app store.</p>"
+          text="<p>Weather to ride is a Weather app for cyclists who commute. Users are able to set weather conditions they prefer and times they commute and they receive personalised responses.</p><p>The app was built in Ionic as an internal project and will be available in the ios app store soon.</p>"
         />
 
       </section>
