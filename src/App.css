@@ -1,6 +1,7 @@
 .App {
   position: relative;
-  margin: 40px 20px;
+  margin: 60px auto;
   padding: 0;
+  max-width: 1440px;
   border: 2px solid #1A1918;
 }
