@@ -36,14 +36,18 @@ body {
   overflow: hidden;
 
   &__cta {
-    position: absolute;
-    top: -3px;
-    right: -3px;
+    display: none;
+
+    @include breakpoint(small) {
+      display: block;
+      position: absolute;
+      top: -3px;
+      right: -3px;
+    }
   }
 }
 
 .btn-cta {
-  display: block;
   padding: 20px 40px;
   color: #fff;
   font-family: $betaFont;
