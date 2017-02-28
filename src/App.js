@@ -8,8 +8,6 @@ import Contact from './components/Contact/Contact';
 
 import './App.scss';
 
-ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
-
 class App extends Component {
 
   registerClick() {
