@@ -8,7 +8,7 @@ import Contact from './components/Contact/Contact';
 
 import './App.scss';
 
-ReactGA.initialize('%REACT_APP_GOOGLE_ANALYTICS%');
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
 
 class App extends Component {
 
