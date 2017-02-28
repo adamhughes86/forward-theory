@@ -15,6 +15,8 @@ class App extends Component {
 
         <main className="main">
 
+          <a href="mailto:adam@forwardtheory.co.uk" className="main__cta btn-cta">Get in touch</a>
+
           <Hero/>
 
           <Projects/>

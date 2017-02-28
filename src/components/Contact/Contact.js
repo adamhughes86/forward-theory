@@ -12,7 +12,7 @@ class Contact extends Component {
         <div className="contact__text">
           <p>If you’re looking for a digital partner, someone to work with on a project or even just a chat about an idea please get in touch.</p>
 
-          <a href="mailto:adam@forwardtheory.co.uk" className="contact__cta">Get in touch</a>
+          <a href="mailto:adam@forwardtheory.co.uk" className="contact__cta btn-cta">Get in touch</a>
         </div>
       </section>
 

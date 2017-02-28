@@ -32,7 +32,34 @@ body {
 }
 
 .main {
+  position: relative;
   overflow: hidden;
+
+  &__cta {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+  }
+}
+
+.btn-cta {
+  display: block;
+  padding: 20px 40px;
+  color: #fff;
+  font-family: $betaFont;
+  font-weight: 500;
+  line-height: 1;
+  @include font-size(14);
+  text-align: center;
+  text-decoration: none;
+  background-color: color(customRed);
+  border: 3px solid color(customRed);
+  transition: background-color 0.4s;
+
+  &:hover {
+    background-color: color(block);
+    border: 3px solid color(customRed);
+  }
 }
 
 img {
