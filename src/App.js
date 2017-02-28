@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Projects/Projects';
@@ -7,7 +8,20 @@ import Contact from './components/Contact/Contact';
 
 import './App.scss';
 
+ReactGA.initialize('%REACT_APP_GOOGLE_ANALYTICS%');
+
 class App extends Component {
+
+  registerClick() {
+    console.log('Contact clicked');
+
+    ReactGA.event({
+      category: 'Contact Click',
+      action: 'Clicked Link',
+      label: 'Header'
+    });
+  }
+
   render() {
     return (
       <div className="App">
@@ -15,7 +29,7 @@ class App extends Component {
 
         <main className="main">
 
-          <a href="mailto:adam@forwardtheory.co.uk" className="main__cta btn-cta">Get in touch</a>
+          <a href="mailto:adam@forwardtheory.co.uk" className="main__cta btn-cta" onClick={this.registerClick}>Get in touch</a>
 
           <Hero/>
 
