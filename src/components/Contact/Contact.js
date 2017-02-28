@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import SuperHeading from '../SuperHeading/SuperHeading';
 import './Contact.scss';
 
 class Contact extends Component {
+
+  registerClick() {
+    console.log('Contact clicked');
+
+    ReactGA.event({
+      category: 'Contact Click',
+      action: 'Clicked Link',
+      label: 'Footer'
+    });
+  }
+
   render() {
     return (
 
@@ -12,7 +24,7 @@ class Contact extends Component {
         <div className="contact__text">
           <p>If you’re looking for a digital partner, someone to work with on a project or even just a chat about an idea please get in touch.</p>
 
-          <a href="mailto:adam@forwardtheory.co.uk" className="contact__cta btn-cta">Get in touch</a>
+          <a href="mailto:adam@forwardtheory.co.uk" className="contact__cta btn-cta" onClick={this.registerClick}>Get in touch</a>
         </div>
       </section>
 
