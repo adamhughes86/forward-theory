@@ -27,7 +27,10 @@ class Home extends Component {
 
           <a href="mailto:adam@forwardtheory.co.uk" className="main__cta btn-cta" onClick={this.registerClick}>Get in touch</a>
 
-          <Hero/>
+          <Hero
+            title="Crafting meaningful digital experiences"
+            text="We are a Liverpool based development studio specialising in small to medium sized websites and apps."
+          />
 
           <Projects/>
 
