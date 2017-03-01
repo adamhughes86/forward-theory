@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  @include font-size(16);
+}
+
+a {
+  color: #00f;
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+dt,
+dd {
+  padding-bottom: 0;
+}
+
+ul,
+ol {
+  padding-bottom: 1em;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+address {
+  padding-bottom: 1em;
+  font-style: normal;
+}

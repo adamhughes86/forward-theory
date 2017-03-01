@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import SuperHeading from '../SuperHeading/SuperHeading';
-import './Contact.scss';
 
 class Contact extends Component {
 
