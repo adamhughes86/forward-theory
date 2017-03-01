@@ -6,8 +6,6 @@ import Projects from '../Projects/Projects';
 import Technology from '../Technology/Technology';
 import Contact from '../Contact/Contact';
 
-import '../../App.scss';
-
 class Home extends Component {
 
   registerClick() {
@@ -22,7 +20,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Page">
         <Header/>
 
         <main className="main">

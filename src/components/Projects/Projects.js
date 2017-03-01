@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SuperHeading from '../SuperHeading/SuperHeading';
 import Project from '../Project/Project';
-import './Projects.scss';
 
 class Projects extends Component {
   render() {

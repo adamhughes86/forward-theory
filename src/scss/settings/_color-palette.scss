@@ -10,15 +10,6 @@ $colorPalette: (
   customBlack: #1A1918
 );
 
-@each $color in $colorPalette {
-  .color-#{nth($color, 1)} {
-    color: nth($color, 2);
-  }
-  .fill-#{nth($color, 1)} {
-    background-color: nth($color, 2);
-  }
-}
-
 @function color($key) {
   @if map-has-key($colorPalette, $key) {
     @return map-get($colorPalette, $key);
