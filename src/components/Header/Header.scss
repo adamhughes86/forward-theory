@@ -1,5 +1,3 @@
-@import "../../scss/settings.scss";
-
 .header {
   display: inline-block;
   position: absolute;
@@ -14,6 +12,6 @@
     height: 45px;
     width: 221px;
     font-size: 0;
-    background: transparent url('../../images/logo.svg') 0 0 no-repeat;
+    background: transparent url('images/logo.svg') 0 0 no-repeat;
   }
 }

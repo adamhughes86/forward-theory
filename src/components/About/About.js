@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
-import Technology from './components/Technology/Technology';
-import Contact from './components/Contact/Contact';
+import Header from '../Header/Header';
+import Hero from '../Hero/Hero';
+import Projects from '../Projects/Projects';
+import Technology from '../Technology/Technology';
+import Contact from '../Contact/Contact';
 
-class App extends Component {
+class Home extends Component {
 
   registerClick() {
     console.log('Contact clicked');
@@ -27,13 +27,10 @@ class App extends Component {
 
           <a href="mailto:adam@forwardtheory.co.uk" className="main__cta btn-cta" onClick={this.registerClick}>Get in touch</a>
 
-          <Hero/>
-
-          <Projects/>
-
-          <Technology/>
-
-          <Contact/>
+          <Hero
+            title="About"
+            text="Something will probably be placed here"
+          />
 
         </main>
       </div>
@@ -41,4 +38,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
