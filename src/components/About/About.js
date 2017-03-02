@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
-import Projects from '../Projects/Projects';
-import Technology from '../Technology/Technology';
 import Contact from '../Contact/Contact';
 
 class Home extends Component {
@@ -33,6 +31,8 @@ class Home extends Component {
             title="About"
             text="Something will probably be placed here"
           />
+      
+          <Contact/>
 
         </main>
       </div>
