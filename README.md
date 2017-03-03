@@ -1,3 +1,5 @@
+[![Deployment status from DeployBot](https://forwardtheory.deploybot.com/badge/77558060110250/99406.svg)](http://deploybot.com)
+
 This is the [Forward Theory website](http://forwardtheory.co.uk). It's built with React on top of [Create React App](https://github.com/facebookincubator/create-react-app). It will be used as a testing ground for React related things.
 
 ---
