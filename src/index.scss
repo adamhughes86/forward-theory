@@ -1,22 +1,7 @@
 /* CSS should follow CCF1 coding standard */
 
 /* Settings - tend to do nothing on their own. Used in combination with other files */
-@import 'scss/settings/mixin';
-@import 'scss/settings/fonts';
-@import 'scss/settings/color-palette';
-@import 'scss/settings/variables';
-@import 'scss/settings/media-queries';
+@import 'scss/settings';
 
 /* UI */
-@import 'scss/ui/structure';
-@import 'scss/ui/typography';
-@import 'scss/ui/icons';
-
-/* Core Components */
-@import './components/Contact/Contact';
-@import './components/Header/Header';
-@import './components/Hero/Hero';
-@import './components/Project/Project';
-@import './components/Projects/Projects';
-@import './components/SuperHeading/SuperHeading';
-@import './components/Technology/Technology';
+@import 'scss/ui';

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './SuperHeading.css';
+
 class SuperHeading extends Component {
   render() {
     return (

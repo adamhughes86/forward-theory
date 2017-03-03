@@ -4,10 +4,10 @@ import { Router, Route, browserHistory } from 'react-router';
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-7357301-16', { debug: true });
 
+import './index.css';
+
 import Home from './components/Home/Home';
 import About from './components/About/About';
-
-import './index.scss';
 
 function logPageView() {
   console.log('Log: ', window.location.pathname);

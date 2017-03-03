@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SuperHeading from '../SuperHeading/SuperHeading';
 
+import './Technology.css';
+
 class Technology extends Component {
   render() {
     return (

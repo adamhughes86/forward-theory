@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import SuperHeading from '../SuperHeading/SuperHeading';
 
+import './Contact.css';
+
 class Contact extends Component {
 
   registerClick() {
