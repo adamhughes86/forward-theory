@@ -1,5 +1,6 @@
-This project has been ejected from Create React App
+This is the [Forward Theory website](http://forwardtheory.co.uk). It's built with React on top of [Create React App](https://github.com/facebookincubator/create-react-app). It will be used as a testing ground for React related things.
 
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
