@@ -1,0 +1,58 @@
+.loadButton-appear {
+  opacity: 0;
+}
+ 
+.loadButton-appear.loadButton-appear-active{
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 0.8s;
+  animation-delay: 3s;
+  //animation-fill-mode: forwards;
+}
+
+.hero-appear {
+  opacity: 0;
+}
+ 
+.hero-appear.hero-appear-active{
+  animation-name: fadeIn;
+  animation-timing-function: ease-out;
+  animation-duration: 0.8s;
+  animation-delay: 0.8s;
+  //animation-fill-mode: forwards;
+}
+
+.projects-appear {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.projects-appear.projects-appear-active{
+  animation-name: fromBelowEasy;
+  animation-timing-function: ease-out;
+  animation-duration: 0.8s;
+  animation-delay: 2s;
+  //animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fromBelowEasy {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
