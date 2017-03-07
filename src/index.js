@@ -8,6 +8,7 @@ import './index.css';
 
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 
 function logPageView() {
   console.log('Log: ', window.location.pathname);
@@ -22,5 +23,6 @@ ReactDOM.render((
   <Router history={browserHistory} onUpdate={logPageView}>
     <Route path="/" components={Home} />
     <Route path="about" components={About} />
+    <Route path="weather-to-ride/privacy-policy" components={PrivacyPolicy} />
   </Router>
 ), document.getElementById('root'))

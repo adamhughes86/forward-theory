@@ -81,3 +81,42 @@ img {
   max-width: 100%;
   border: 0;
 }
+
+.Body {
+  padding: 0 40px 125px 40px;
+  color: color(customBlack);
+  max-width: 660px;
+
+  .date {
+    margin-bottom: 1em;
+    @include font-size(18);
+    @include font-alpha();
+
+    strong {
+      color: color(customRed);
+    }
+  }
+
+  h2 {
+    margin: 3em 0 1em;
+    @include font-size(22);
+    @include font-beta();
+  }
+
+  p {
+    margin-bottom: 1em;
+    @include font-size(14);
+    @include font-beta();
+  }
+
+  ul {
+    @include font-size(14);
+    @include font-beta();
+    list-style-position: outside;
+    margin: 2em 0 1em 50px;
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+}
