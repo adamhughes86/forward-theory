@@ -12,6 +12,8 @@ class Project extends Component {
 
         <div className="project__description" dangerouslySetInnerHTML={{__html: this.props.text}}>
         </div>
+
+        <a href={this.props.link} target="_blank"><img src="images/app-store-button.svg" alt="Download on the App Store"/></a>
       </article>
 
     );
